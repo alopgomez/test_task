@@ -99,7 +99,7 @@ Middleware is a framework that feeds the request/response processes in Django. P
 
 **There are two tables: A and B. The first table has 4 columns and 10 records, and the second one has 5 columns and 8 records. How many rows and columns will be output with the `select * from A,B` query, and why?**
 
-$Col_{tot} = 4+5 = 9$
+$Col_{tot} = 4+5 = 9$; 
 $Row_{tot} = 10*8 = 80$
 
 SQL takes this query as a join, since there is no key to filter the data, this results in a map where each register from the second table is matched with each register of the first table (like a cartesian product), hence the final 80 registers.
@@ -167,7 +167,7 @@ Yes, if one counts the blank space as a character.
 
 **12. 0 STDIN, 1 STDOUT, 2 STDERR — what does it mean?**
 
-The types of output in terminal and their respective code for redirection.
+The types of standard input/output to terminal and their respective code for redirection.
 
 **13. What is the name of the DNS record for IPv6?**
 
